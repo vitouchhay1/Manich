@@ -1,0 +1,41 @@
+@extends('layouts.layout')
+@section('top-nav')
+    @include('elements.top-nav')
+@endsection
+@section('logo-search-cart')
+    @include('elements.logo-search-cart')
+@endsection
+@section('menu')
+    @include('elements.menu')
+@endsection
+@section('slider')
+    @include('elements.slider')
+@endsection
+@section('purchase')
+    @include('elements.purchase')
+@endsection
+@section('content-women')
+    @include('elements.women')
+@endsection
+@section('content-man')
+    @include('elements.man')
+@endsection
+
+@section('content-man-women')
+    @include('elements.women-man')
+@endsection
+@section('brand')
+    @include('elements.brand')
+@endsection
+@section('latest')
+    @include('elements.latest')
+@endsection
+@section('quote')
+    @include('elements.quote')
+@endsection
+@section('contact')
+    @include('elements.contact')
+@endsection
+@section('footer')
+    @include('elements.footer')
+@endsection
