@@ -10,9 +10,9 @@
     <div class="noo-topmeta noo-topmeta-right pull-right">
         <ul>
             <li><a href="wishlist.html"><i class="icon-heart"></i>my wishlist</a></li>
-            <li><a href="{{url('login')}}"><i class="icon-login"></i>Sign in / register</a></li>
-            @guest
             
+            @guest
+                <li><a href="{{url('login')}}"><i class="icon-login"></i>Sign in / register</a></li>
             @else
                 <li>
                     {{Auth::user()->name}} &nbsp;
